@@ -4,7 +4,6 @@ body {
   background-color: white;
 }
 
-
 .banner {
   background: linear-gradient(to bottom, #007b8a, #f29e66);
   padding: 50px 20px;
@@ -32,37 +31,35 @@ body {
   margin-top: 10px;
 }
 
-
 .content {
   background-color: white;
   padding: 60px 20px;
 }
 
 .content-wrapper {
-  width: 90%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
 .content-image {
-  width: 400px;  
+  width: 400px;
   height: auto;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 30px;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .main-text {
-  display: inline-block;
-  width: 600px;
-  vertical-align: top;
+  flex: 1;
   font-size: 18px;
   line-height: 1.8;
 }
-
 
 footer {
   background-color: gold;
