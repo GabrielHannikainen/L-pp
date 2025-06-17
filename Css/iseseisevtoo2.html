@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,124 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   </head>
   <body>
-<div class="container">
-  <div class="row align-items-start">
-    <div class="col-auto">
-      <img src="https://via.placeholder.com/150" alt="Logo" class="mt-3">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-auto">
+          <img src="https://via.placeholder.com/150" alt="Logo" class="mt-3">
+        </div>
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-info">Info</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-info">Info</button>
-              </li>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h1 class="mt-4">Tere tulemast</h1>
+          <p class="lead mt-3 fs-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quod impedit. Ad, amet quaerat illo blanditiis consequatur est iste ullam quisquam dolore minus eaque expedita sit fugiat natus omnis ut.
+          </p>
+          <button type="button" class="btn btn-primary fs-5">Download</button>
+          <button type="button" class="btn btn-secondary fs-5">Loe edasi</button>
+        </div>
+        <div class="col">
+          <img src="https://picsum.photos/id/684/720/400" alt="Katki" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="text-primary">Blueprintsapp</div>
+      <h1 class="fs-3">Bootstrap 4, Fontawesome and bootswatch - all in one simple to use app interface</h1>
+      <p class="mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4 text-center pt-4">
+                <i class="fa-solid fa-house fa-2x text-primary"></i>
+              </div>
+              <div class="col-8">
+                <div class="card-body py-2">
+                  <h1 class="card-title mb-1 fs-4">Responsive</h1>
+                  <p class="card-text small mb-1">Lorem ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4 text-center pt-4">
+                <i class="fa-solid fa-house fa-2x text-primary"></i>
+              </div>
+              <div class="col-8">
+                <div class="card-body py-2">
+                  <h1 class="card-title mb-1 fs-4">Bootstrap 4</h1>
+                  <p class="card-text small mb-1">Lorem ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-4 text-center pt-4">
+                <i class="fa-solid fa-house fa-2x text-primary"></i>
+              </div>
+              <div class="col-8">
+                <div class="card-body py-2">
+                  <h1 class="card-title mb-1 fs-4">BootStrap 5</h1>
+                  <p class="card-text small mb-1">Lorem ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <button type="button" class="btn btn-primary w-25">Primary</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img src="https://picsum.photos/id/684/500/400" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Starting up with ready-made templates and blocks</h3>
+          <p>Simple, clean and responsive layout using Bootstrap.</p>
+          <a class="btn btn-primary me-2">Get Started</a>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <h3>Change styles with built-in Bootswatch themes</h3>
+          <p>Experiment with different styles and layouts with ease.</p>
+          <a class="btn btn-primary me-2">Try it now</a>
+          <a href="#">View Themes</a>
+        </div>
+        <div class="col-md-6">
+          <img src="https://picsum.photos/id/684/500/400" alt="">
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img src="https://picsum.photos/id/684/500/400" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Save and reuse. Get your prototype done in minutes</h3>
+          <p>Use prebuilt blocks and save time on design and development.</p>
+          <a class="btn btn-primary me-2">Start Building</a>
+          <a href="#">Explore Components</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row text-center">
+        <div class="col-md-6 mb-4">
+          <div class="p-4 border rounded">
+            <p>"Bootstrap really helped us deliver fast, flexible prototypes."</p>
+            <small>- Person Name</small>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="p-4 border rounded">
+            <p>"An excellent toolkit for building responsive and modern UIs."</p>
+            <small>- Person Name</small>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="p-4 border rounded">
+            <p>"Fast development with reusable components  perfect!"</p>
+            <small>- Person Name</small>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="p-4 border rounded">
+            <p>"A developers dream for front-end projects."</p>
+            <small>- Person Name</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center mb-4">Pricing Plans</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="border p-4 rounded">
+            <h4>Startup</h4>
+            <h2>$9.90</h2>
+            <ul class="list-unstyled">
+              <li>Basic features</li>
+              <li>Email support</li>
             </ul>
+            <a class="btn btn-primary mt-3">Choose Plan</a>
           </div>
         </div>
-      </nav>
-    </div>
+        <div class="col-md-4 mb-4">
+          <div class="border p-4 rounded">
+            <h4>Business</h4>
+            <h2>$19.90</h2>
+            <ul class="list-unstyled">
+              <li>All Startup features</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary mt-3">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="border p-4 rounded">
+            <h4>Professional</h4>
+            <h2>$39.90</h2>
+            <ul class="list-unstyled">
+              <li>All Business features</li>
+              <li>Dedicated support</li>
+            </ul>
+            <a class="btn btn-primary mt-3">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </div><footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-1">© 2025 SinuEttevõte. Kõik õigused kaitstud.</p>
+    <p class="mb-0">
+      <a href="#" class="text-white me-3">Privaatsuspoliitika</a>
+      <a href="#" class="text-white">Kontakt</a>
+    </p>
   </div>
-</div>
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <h1 class="mt-4">Tere tulemast</h1>
-      <div class="mb-1">
-        <p class="lead mt-3 fs-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quod impedit. Ad, amet quaerat illo blanditiis consequatur est iste ullam quisquam dolore minus eaque expedita sit fugiat natus omnis ut.
-        </p>
-        <button type="button" class="btn btn-primary fs-5">Download</button>
-        <button type="button" class="btn btn-secondary fs-5">Loe edasi</button>
-      </div>
-    </div>
-    <div class="col">
-      <img src="https://picsum.photos/id/684/720/400" alt="Katki">
-    </div>
-  </div>
-</div>
-<div class="container mt-5">
-  <div class="text-primary">Blueprintsapp</div>
-  <h1 class="fs-3">Bootstrap 4, Fontawesome and bootswatch - all in one simple to use app interface</h1>
-  <p class="class mt-3 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ut, quidem in dolorum atque esse perspiciatis quos, laboriosam enim culpa debitis accusamus recusandae nulla quaerat iusto delectus placeat aliquam molestias?</p>
-</div>
-<div class="container mt-5">
-  <div class="row g-3">
-
-    <div class="col-md-4">
-      <div class="card">
-        <div class="row g-0">
-          <div class="col-4 text-center pt-4">
-            <i class="fa-solid fa-house fa-2x text-primary"></i>
-          </div>
-          <div class="col-8">
-            <div class="card-body py-2">
-              <h1 class="card-title mb-1 fs-4">Responsive</h1>
-              <p class="card-text small mb-1">Lorem ipsum dolor</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card">
-        <div class="row g-0">
-          <div class="col-4 text-center pt-4">
-            <i class="fa-solid fa-house fa-2x text-primary"></i>
-          </div>
-          <div class="col-8">
-            <div class="card-body py-2">
-              <h1 class="card-title mb-1 fs-4">Bootstrap 4</h1>
-              <p class="card-text small mb-1">Lorem ipsum dolor</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card">
-        <div class="row g-0">
-          <div class="col-4 text-center pt-4">
-            <i class="fa-solid fa-house fa-2x text-primary"></i>
-          </div>
-          <div class="col-8">
-            <div class="card-body py-2">
-              <h1 class="card-title mb-1 fs-4">BootStrap 5</h1>
-              <p class="card-text small mb-1">Lorem ipsum dolor</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="text-center mt-5">
-      <button type="button" class="btn btn-primary w-25">Primary</button>
-    </div>
-    </div>
-  </div>
-</div>
-
-
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
 </html>
